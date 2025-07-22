@@ -6,10 +6,7 @@ main{
   grid-template-columns: repeat(auto-fill, 20.48px);
   grid-template-rows: repeat(100, 20.48px);
 }
-header{
-  text-align:center;
-  display:inline-block;
-}
+
 .self{
   background-color:#7c4622;
   text-align: center;
@@ -43,6 +40,7 @@ header{
 }
 h1{
   text-align:center;
+  margin:auto;
   color:#fbecde;
   width:300px;
   border: 5px groove #eeb8c3;
