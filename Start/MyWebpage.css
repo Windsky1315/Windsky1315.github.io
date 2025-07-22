@@ -1,11 +1,12 @@
 body{
   background-color: #431919;
-  height:2048px;
+  height:2056px;
 }
 main{
   display: grid;
-  grid-template-columns: 20% 60% 20%
-                          25% 37.5% 37.5%;
+  height:2000px;
+  grid-template-columns: repeat(5, 16.67%) auto;
+                          
   grid-template-rows: 37.5% 62.5%;
 }
 
@@ -29,7 +30,7 @@ main{
   background-color:#818570;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-row-start:2;
 }
 .game{
@@ -37,7 +38,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column-start: 3;
+  grid-column-start: 5;
   grid-row-start:2;
 }
 h1{
