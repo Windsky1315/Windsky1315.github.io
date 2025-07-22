@@ -1,5 +1,6 @@
 body{
   background-color: #431919;
+  height:2048px;
 }
 main{
   display: grid;
