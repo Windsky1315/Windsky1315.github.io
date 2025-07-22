@@ -1,10 +1,10 @@
 body{
   background-color: #431919;
-  height:756px;
+  height:850px;
 }
 main{
   display: grid;
-  height:650px;
+  height:750px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
   grid-template-rows: 40% 60%;
   gap:10px;
