@@ -4,9 +4,9 @@ body{
 }
 main{
   display: grid;
-  height:700px;
+  height:650px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
-  grid-template-rows: 37.5% 62.5%;
+  grid-template-rows: 40% 60%;
   gap:10px;
 }
 
