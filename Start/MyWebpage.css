@@ -1,3 +1,19 @@
 body{
   background-color: #431919;
 }
+.self{
+  border: 2px solid #e4ecf0;
+  border-radius:7px;
+}
+.hobby{
+  border: 2px solid #e4ecf0;
+  border-radius:7px;
+}
+.music{
+  border: 2px solid #e4ecf0;
+  border-radius:7px;
+}
+.game{
+  border: 2px solid #e4ecf0;
+  border-radius:7px;
+}
