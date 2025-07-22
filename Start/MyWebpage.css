@@ -19,14 +19,14 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 1/24;
+  grid-column: 7/17;
   grid-row:27/45;
 }
 .music{
   background-color:#818570;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 26/49;
+  grid-column: 31/41;
   grid-row:27/45;
 }
 .game{
@@ -34,6 +34,13 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 51/75;
+  grid-column: 55/65;
   grid-row:27/45;
 }
+h1{
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+
