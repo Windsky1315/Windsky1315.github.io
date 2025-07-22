@@ -8,6 +8,7 @@ main{
 }
 header{
   text-align:center;
+  display:inline-block;
 }
 .self{
   background-color:#7c4622;
