@@ -16,7 +16,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 1/span 4;
+  grid-column: 1;
   grid-row-start:1;
 }
 .hobby{
