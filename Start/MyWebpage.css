@@ -6,11 +6,12 @@ main{
   display: grid;
   height:750px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 40% 55% 5%;
   gap:10px;
 }
 
 .self{
+  display:inline-block;
   background-color:#7c4622;
   text-align: center;
   border: 2px solid #e4ecf0;
