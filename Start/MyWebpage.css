@@ -10,23 +10,29 @@ main{
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column-start: 28;
-  grid-colunm-end: 42;
+  grid-column-end: 42;
 }
 .hobby{
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column-start: 1;
-  grid-colunm-end: 24;
+  grid-column-end: 24;
+  grid-row-start:27;
+  grid-row-end:35;
 }
 .music{
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column-start: 25;
-  grid-colunm-end: 48;
+  grid-column-end: 48;
+  grid-row-start:27;
+  grid-row-end:35;
 }
 .game{
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column-start: 48;
-  grid-colunm-end: 72;
+  grid-column-end: 72;
+  grid-row-start:27;
+  grid-row-end:35;
 }
