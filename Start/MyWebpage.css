@@ -12,7 +12,7 @@ main{
   border-radius:7px;
   grid-column-start: 28;
   grid-column-end: 42;
-  grid-row-end:15;
+  grid-row:1/15;
 }
 .hobby{
   text-align: center;
