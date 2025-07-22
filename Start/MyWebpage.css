@@ -6,6 +6,9 @@ main{
   grid-template-columns: repeat(auto-fill, 20.48px);
   grid-template-rows: repeat(100, 20.48px);
 }
+header{
+  text-align:center;
+}
 .self{
   background-color:#7c4622;
   text-align: center;
