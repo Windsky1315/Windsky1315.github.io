@@ -12,7 +12,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 9/13;
+  grid-column: 9/span 4;
   grid-row:2/16;
 }
 .hobby{
@@ -20,14 +20,14 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 2/6;
+  grid-column: 2/span 4;
   grid-row:27/45;
 }
 .music{
   background-color:#818570;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 7/11;
+  grid-column: 7/span 4;
   grid-row:27/45;
 }
 .game{
@@ -35,7 +35,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 12/16;
+  grid-column: 12/span 4;
   grid-row:27/45;
 }
 h1{
