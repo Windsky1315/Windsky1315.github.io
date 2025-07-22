@@ -3,8 +3,8 @@ body{
 }
 main{
   display: grid;
-  grid-template-columns: repeat(auto-fill, 20.48px);
-  grid-template-rows: repeat(100, 20.48px);
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(100, 20px);
 }
 
 .self{
@@ -12,7 +12,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 30/42;
+  grid-column: 5/7;
   grid-row:1/15;
 }
 .hobby{
@@ -20,14 +20,14 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 7/17;
+  grid-column: 2/3;
   grid-row:27/45;
 }
 .music{
   background-color:#818570;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 31/41;
+  grid-column: 4/5;
   grid-row:27/45;
 }
 .game{
@@ -35,7 +35,7 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 55/65;
+  grid-column: 5/6;
   grid-row:27/45;
 }
 h1{
