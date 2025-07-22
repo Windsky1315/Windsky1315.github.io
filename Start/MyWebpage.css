@@ -3,8 +3,9 @@ body{
 }
 main{
   display: grid;
-  grid-template-columns: repeat(20, 5%);
-  grid-template-rows: repeat(100, 20px);
+  grid-template-columns: 20% 60% 20%
+                          25% 37.5% 37.5%;
+  grid-template-rows: 37.5% 62.5%;
 }
 
 .self{
@@ -12,31 +13,31 @@ main{
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 9/span 4;
-  grid-row:2/16;
+  grid-column-start: 2;
+  grid-row-start:1;
 }
 .hobby{
   background-color:#818570;
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 2/span 4;
-  grid-row:27/45;
+  grid-column-start: 1;
+  grid-row-start:2;
 }
 .music{
   background-color:#818570;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 7/span 4;
-  grid-row:27/45;
+  grid-column-start: 2;
+  grid-row-start:2;
 }
 .game{
   background-color:#818570;
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
-  grid-column: 12/span 4;
-  grid-row:27/45;
+  grid-column-start: 3;
+  grid-row-start:2;
 }
 h1{
   text-align:center;
