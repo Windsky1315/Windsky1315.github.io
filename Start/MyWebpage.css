@@ -4,7 +4,7 @@ body{
 main{
   display: grid;
   grid-template-columns: repeat(auto-fill, 20.48px);
-  grid-template-rows: repeat(1000, 20.48px);
+  grid-template-rows: repeat(100, 20.48px);
 }
 .self{
   border: 2px solid #e4ecf0;
