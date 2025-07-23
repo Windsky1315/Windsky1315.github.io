@@ -20,6 +20,7 @@ main{
   grid-column: 1;
   grid-row-start:1;
   overflow:scroll;
+  scroll-margin:0;
 }
 .picture{
   background: url("Picture.jpeg") center;
@@ -35,6 +36,7 @@ main{
   grid-column: 1/span 2;
   grid-row-start:3;
   overflow:scroll;
+  scroll-margin:0;
 }
 .music{
   background:#818570 url("MusicBackground .png");
@@ -44,6 +46,7 @@ main{
   grid-column: 3/span 2;
   grid-row-start:3;
   overflow:scroll;
+  scroll-margin:0;
 }
 .game{
   background-color:#818570;
