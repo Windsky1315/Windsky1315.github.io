@@ -30,7 +30,7 @@ main{
   overflow:scroll;
 }
 .music{
-  background:#818570 url("MusicBackground.png");
+  background:#818570 url("MusicBackground .png");
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column: 3/span 2;
