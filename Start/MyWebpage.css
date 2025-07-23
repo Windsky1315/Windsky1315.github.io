@@ -1,5 +1,5 @@
 body{
-  background-color: #28292b;
+  background-color: #eceff4;
   height:900px;
 }
 main{
@@ -30,7 +30,7 @@ main{
   overflow:scroll;
 }
 .music{
-  background-color:#818570;
+  background:#818570 url("MusicBackground.png");
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column: 3/span 2;
@@ -46,7 +46,7 @@ main{
 }
 h1{
   text-align:center;
-  background-color:#ead8ae;
+  background-color:#28292b;
   margin:auto;
   color:#fbecde;
   width:20%;
