@@ -4,15 +4,15 @@ body{
 }
 main{
   display: grid;
-  height:750px;
+  height:800px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
-  grid-template-rows: 40% 55% 5%;
+  grid-template-rows: 60% 35% 5%;
   gap:10px;
 }
 
 .self{
   display:inline-block;
-  background-color:#7c4622;
+  background-color:#93d5dc;
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
@@ -21,9 +21,9 @@ main{
   overflow:scroll;
 }
 .picture{
-  background: url("Picture.jpeg");
+  background: url("Picture.jpeg") center;
   background-size:cover;
-  grid-column: 3/span 5;
+  grid-column: 3/span 4;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
@@ -40,6 +40,7 @@ main{
   border-radius:7px;
   grid-column: 3/span 2;
   grid-row-start:2;
+  margin-left:20px;
 }
 .game{
   background-color:#818570;
