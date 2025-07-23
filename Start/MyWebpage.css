@@ -25,10 +25,11 @@ main{
 .intro{
   grid-column: 2;
   grid-row:1;
-  background-color:lightblue;
+  background-color:#425539;
   border-radius:10px;
+  font-size:5px;
   overflow:scroll;
-  scrollbar-color:#e4ecf0 lightblue;
+  scrollbar-color:#e4ecf0 #425539;
 }
 .link{
 	grid-column: 1/span 2;
