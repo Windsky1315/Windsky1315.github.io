@@ -7,7 +7,7 @@ main{
   height:800px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
   grid-template-rows: 40% 20% 35% 5%;
-  gap:10px;
+  gap:5px;
 }
 
 .self{
