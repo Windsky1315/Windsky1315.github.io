@@ -22,8 +22,8 @@ main{
 }
 .picture{
   background: url("Picture.jpeg");
+  background-size:cover;
   grid-column: 2/span 5;
-  overflow:visible;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
