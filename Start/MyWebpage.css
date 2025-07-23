@@ -14,7 +14,6 @@ main{
   display:inline-block;
   background-color:#22202e;
   text-align: center;
-  text-decoration:underline;
   color:#fbecde;
   border: 2px solid #e4ecf0;
   border-radius:10px;
@@ -29,7 +28,8 @@ main{
   background-color:#add5a2;
   border:10px outset #3d6036;
   border-radius:10px;
-  font-size:15px;
+  text-decoration:underline;
+  font-size:20px;
   padding-left:25px;
   color:#425539;
   overflow:scroll;
