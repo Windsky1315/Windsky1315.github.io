@@ -57,7 +57,7 @@ main{
   overflow-x:hidden;
 }
 .game{
-  background-color:#818570 url("SkyBackground.jpeg") center;
+  background:#818570 url("SkyBackground.jpeg") center;
   background-size:cover;
   text-align: center;
   border: 2px solid #e4ecf0;
