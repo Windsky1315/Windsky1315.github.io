@@ -21,9 +21,7 @@ main{
   overflow:scroll;
 }
 .hobby{
-  background-image:url("ChessBackground.jpeg");
-  background-color:#818570;
-  background-position:center;
+  background:#818570 url("ChessBackground.jpeg") center;
   text-align: center;
   border: 2px solid #e4ecf0;
   border-radius:7px;
