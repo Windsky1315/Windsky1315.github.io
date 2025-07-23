@@ -27,10 +27,10 @@ main{
   grid-row:1;
   background-color:#add5a2;
   border-radius:10px;
-  font-size:20px;
-  color:#fbecde;
+  font-size:23px;
+  color:#425539;
   overflow:scroll;
-  scrollbar-color:#e4ecf0 #425539;
+  scrollbar-color:#e4ecf0 #add5a2;
 }
 .link{
 	grid-column: 1/span 2;
@@ -53,17 +53,18 @@ main{
   grid-column: 1/span 2;
   grid-row-start:3;
   overflow:scroll;
-  scrollbar-color:#e4ecf0 #e4ecf0;
+  scrollbar-color:#e4ecf0 #c6e6e8;
 }
 .music{
   background:#818570 url("MusicBackground .png");
+  font-size:20px;
   border: 2px solid #e4ecf0;
   border-radius:7px;
   padding:20px;
   grid-column: 3/span 2;
   grid-row-start:3;
   overflow:scroll;
-  scrollbar-color:#e4ecf0 #e4ecf0;
+  scrollbar-color:#e4ecf0 #c6e6e8;
 }
 .game{
   background:#818570 url("SkyBackground.jpeg") center;
