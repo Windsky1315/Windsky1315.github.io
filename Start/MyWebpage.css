@@ -26,8 +26,10 @@ main{
   grid-column: 2;
   grid-row:1;
   background-color:#add5a2;
+  border:10px outset #3d6036;
   border-radius:10px;
-  font-size:23px;
+  font-size:15px;
+  padding:50px;
   color:#425539;
   overflow:scroll;
   scrollbar-color:#e4ecf0 #add5a2;
