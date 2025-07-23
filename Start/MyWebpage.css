@@ -27,14 +27,15 @@ main{
   grid-row:1;
   background-color:#425539;
   border-radius:10px;
-  font-size:5px;
+  font-size:30px;
+  color:#fbecde;
   overflow:scroll;
   scrollbar-color:#e4ecf0 #425539;
 }
 .link{
 	grid-column: 1/span 2;
   grid-row:2;
-  background-color:lightblue;
+  background-color:#2b2e77;
   border-radius:10px;
 }
 .picture{
