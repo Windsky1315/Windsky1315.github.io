@@ -38,9 +38,13 @@ main{
   scrollbar-color:#e4ecf0 #add5a2;
 }
 .link{
-	grid-column: 1/span 2;
+  text-align: center;
+  font-size:30px;
+  font-family: "Lucida Handwriting";
+  grid-column: 1/span 2;
   grid-row:2;
-  background-color:#346c9c;
+  background:#346c9c url("LinkBackground.jpeg") center;
+  background-size:cover;
   border-radius:10px;
 }
 .picture{
