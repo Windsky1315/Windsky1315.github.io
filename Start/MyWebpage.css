@@ -52,8 +52,8 @@ main{
   background-size:cover;
   grid-column: 3/span 4;
   grid-row:1/span 2;
-  border:5px double #53976f;
-  border-radius:10px;
+  border:7px double #53976f;
+  border-radius:15px;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
@@ -89,7 +89,7 @@ h1{
   text-align:center;
   background-color:#36292f;  
   color:#fbecde;  
-  border: 5px groove #d3d4d3;
+  border: 5px groove #eceff4;
   overflow:hidden;
 }
 h2{
