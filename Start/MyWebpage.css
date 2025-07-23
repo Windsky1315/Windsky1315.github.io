@@ -16,15 +16,19 @@ main{
   text-align: center;
   color:#fbecde;
   border: 2px solid #e4ecf0;
-  border-radius:7px;
+  border-radius:10px;
   grid-column: 1;
   grid-row-start:1;
+  overflow:scroll;
+  scrollbar-color:#e4ecf0 #22202e;
 }
 .intro{
-	grid-column: 2;
+  grid-column: 2;
   grid-row:1;
   background-color:lightblue;
   border-radius:10px;
+  overflow:scroll;
+  scrollbar-color:#e4ecf0 lightblue;
 }
 .link{
 	grid-column: 1/span 2;
@@ -37,6 +41,7 @@ main{
   background-size:cover;
   grid-column: 3/span 4;
   grid-row:1/span 2;
+  border-radius:10px;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
@@ -45,6 +50,8 @@ main{
   border-radius:7px;
   grid-column: 1/span 2;
   grid-row-start:3;
+  overflow:scroll;
+  scrollbar-color:#e4ecf0 #e4ecf0;
 }
 .music{
   background:#818570 url("MusicBackground .png");
@@ -54,7 +61,7 @@ main{
   grid-column: 3/span 2;
   grid-row-start:3;
   overflow:scroll;
-  overflow-x:hidden;
+  scrollbar-color:#e4ecf0 #e4ecf0;
 }
 .game{
   background:#818570 url("SkyBackground.jpeg") center;
@@ -67,11 +74,10 @@ main{
 }
 h1{
   text-align:center;
-  background-color:#28292b;
-  margin:auto;
-  color:#fbecde;
-  width:20%;
+  background-color:#36292f;  
+  color:#fbecde;  
   border: 5px groove #eeb8c3;
+  overflow:hidden;
 }
 h2{
   text-align:center;
