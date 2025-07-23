@@ -39,7 +39,7 @@ main{
 }
 .link{
   text-align: center;
-  padding-top:20px;
+  padding:auto;
   font-size:30px;
   font-family: "Lucida Handwriting";
   grid-column: 1/span 2;
