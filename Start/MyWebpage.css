@@ -20,6 +20,10 @@ main{
   grid-row-start:1;
   overflow:scroll;
 }
+.picture{
+  background: url("Picture.jpeg");
+  grid-column: 2;
+}
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
   text-align: center;
@@ -31,7 +35,6 @@ main{
 }
 .music{
   background:#818570 url("MusicBackground .png");
-  opacity:0.5;
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column: 3/span 2;
