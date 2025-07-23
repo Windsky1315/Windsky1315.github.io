@@ -6,14 +6,15 @@ main{
   display: grid;
   height:800px;
   grid-template-columns: repeat(5, 16.67%) auto;                          
-  grid-template-rows: 60% 35% 5%;
+  grid-template-rows: 40% 20% 35% 5%;
   gap:10px;
 }
 
 .self{
   display:inline-block;
-  background-color:#93d5dc;
+  background-color:#22202e;
   text-align: center;
+  color:#fbecde;
   border: 2px solid #e4ecf0;
   border-radius:7px;
   grid-column: 1;
@@ -24,6 +25,7 @@ main{
   background: url("Picture.jpeg") center;
   background-size:cover;
   grid-column: 3/span 4;
+  grid-row:1/span 2;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
@@ -41,6 +43,7 @@ main{
   grid-column: 3/span 2;
   grid-row-start:2;
   margin-left:20px;
+  overflow:scroll;
 }
 .game{
   background-color:#818570;
