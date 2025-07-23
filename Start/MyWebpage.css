@@ -62,8 +62,8 @@ main{
   border-radius:7px;
   grid-column: 1/span 2;
   grid-row-start:3;
-  overflow:scroll;
-  scrollbar-color:#e4ecf0 #2b2e77;
+  overflow-y:scroll;
+  scrollbar-color:#e4ecf0 #c6e6e8;
 }
 .music{
   background:#818570 url("MusicBackground .png");
@@ -73,8 +73,8 @@ main{
   padding:20px;
   grid-column: 3/span 2;
   grid-row-start:3;
-  overflow:scroll;
-  scrollbar-color:#e4ecf0 #2b2e77;
+  overflow-y:scroll;
+  scrollbar-color:#e4ecf0 #c6e6e8;
 }
 .game{
   background:#818570 url("SkyBackground.jpeg") center;
