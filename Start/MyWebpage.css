@@ -52,12 +52,13 @@ main{
   background-size:cover;
   grid-column: 3/span 4;
   grid-row:1/span 2;
+  border:5px double #53976f;
   border-radius:10px;
 }
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
   text-align: center;
-  border: 2px solid #e4ecf0;
+  border:5px double #2b2e77;
   border-radius:7px;
   grid-column: 1/span 2;
   grid-row-start:3;
@@ -67,7 +68,7 @@ main{
 .music{
   background:#818570 url("MusicBackground .png");
   font-size:20px;
-  border: 2px solid #e4ecf0;
+  border:5px double #2b2e77;
   border-radius:7px;
   padding:20px;
   grid-column: 3/span 2;
@@ -79,7 +80,7 @@ main{
   background:#818570 url("SkyBackground.jpeg") center;
   background-size:cover;
   text-align: center;
-  border: 2px solid #e4ecf0;
+  border:5px double #2b2e77;
   border-radius:7px;
   grid-column: 5/span 2;
   grid-row-start:3;
