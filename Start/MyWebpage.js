@@ -1,2 +1,2 @@
 "use strict";
-window.alert("Hello");
+window.alert("Recommend using computer or ipad");
