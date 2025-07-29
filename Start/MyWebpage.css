@@ -1,5 +1,5 @@
 body{
-  background-color: #c6e6e8;
+  background-image: radial-gradient(#192841 20%, #81C0C0);
   height:900px;
 }
 main{
@@ -30,7 +30,7 @@ main{
   border-radius:10px;
   text-decoration:underline;
   font-size:18px;
-  font-family: "Lucida Handwriting";
+  font-family: "Lucida Handwriting", "Comic sans MS";
   padding-left:22px;
   padding-top:25px;
   color:#425539;
@@ -40,7 +40,7 @@ main{
 .link{
   text-align: center;
   font-size:30px;
-  font-family: "Lucida Handwriting";
+  font-family: "Lucida Handwriting", "Comic sans MS";
   grid-column: 1/span 2;
   grid-row:2;
   background:#346c9c url("LinkBackground.jpeg") center;
@@ -58,6 +58,7 @@ main{
 .hobby{
   background:#818570 url("ChessBackground.jpeg") center;
   text-align: center;
+  color:#080f40;
   border:5px double #2b2e77;
   border-radius:7px;
   grid-column: 1/span 2;
@@ -79,6 +80,8 @@ main{
 .game{
   background:#818570 url("SkyBackground.jpeg") center;
   background-size:cover;
+  color:#6b8c32;
+  padding-left:20px;
   text-align: center;
   border:5px double #2b2e77;
   border-radius:7px;
@@ -94,5 +97,17 @@ h1{
 }
 h2{
   text-align:center;
+}
+.shine{
+	animation-name:glow;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+@keyframes glow{
+	0%{color:#d9ffff; font-size:100%;}
+	25%{color:#00e3e3; font-size:75%;}
+	50%{color:#003e3e; font-size:100%;}
+	75%{color:#00e3e3; font-size:75%;}
+	100%{color:#d9ffff; font-size:100%;}
 }
 
