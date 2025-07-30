@@ -66,7 +66,7 @@ main{
   grid-column: 1/span 2;
   grid-row-start:3;
   overflow-y:scroll;
-  scrollbar-color:#e4ecf0 #c6e6e8;
+  scrollbar-color:#e4ecf0 #2b2e77;
 }
 .music{
   background:#818570 url("MusicBackground .png") center;
@@ -122,10 +122,10 @@ h2{
       	background: linear-gradient(
         to right,
         rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0.2) 10%,
         rgba(255, 255, 255, 0) 100%
       	);
-      animation: shineMove 1.5s ease-in-out infinite alternate;
+      animation: shineMove 7s reverse infinite ;
 }
 @keyframes glow1{
 	0%{color:#d9ffff; font-size:100%;}
@@ -145,6 +145,10 @@ h2{
     0% {
       left: -50%;
     }
+    30%{
+	left:100%
+    }
+    100% {
     100% {
       left: 100%;
     }
