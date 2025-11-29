@@ -161,3 +161,17 @@ h2{
       left: 100%;
     }
 }
+audio{
+  display:none;
+}
+.play-button{
+  background-color: aliceblue ;
+  margin-right: 0;
+  border: 5px double black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.play-button.playing{
+  background-color: #192841;
+}
