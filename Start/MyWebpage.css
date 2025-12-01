@@ -1,5 +1,5 @@
 body{
-  background-image: radial-gradient(#192841 20%, #81C0C0);
+  background-image: radial-gradient(#070708 20%, #414245);
   height:900px;
 }
 main{
@@ -25,17 +25,17 @@ main{
 .intro{
   grid-column: 2;
   grid-row:1;
-  background-color:#add5a2;
-  border:10px outset #3d6036;
+  background-color:#023260;
+  border:10px outset #012738;
   border-radius:10px;
   text-decoration:underline;
   font-size:18px;
   font-family: "Lucida Handwriting", "Comic sans MS";
   padding-left:22px;
   padding-top:25px;
-  color:#425539;
+  color:#c9c9f9;
   overflow:scroll;
-  scrollbar-color:#e4ecf0 #add5a2;
+  scrollbar-color:#012335 #193248;
 }
 .link{
   text-align: center;
@@ -73,7 +73,7 @@ main{
   background-size:cover;
   color:#cc5d4e;
   font-size:20px;
-  border:5px double #5d181a;
+  border:5px double #5d1852;
   border-radius:7px;
   padding:20px;
   grid-column: 3/span 2;
