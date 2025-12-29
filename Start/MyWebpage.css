@@ -1,6 +1,9 @@
 body{
   background-image: radial-gradient(#070708 20%, #414245);
   height:900px;
+  width: 1500px;
+  margin: 0 auto;  /* center the page */
+  overflow-x: scroll;
 }
 main{
   display: grid;
